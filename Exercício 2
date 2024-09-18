@@ -1,0 +1,12 @@
+fun main() {
+    print("Informe uma palavra: ")
+    var word = readln()
+    var a = 0
+         word.lowercase()
+        for (i in 0..word.length - 1) {
+            if (word[i] == 'a') {
+                a++
+            }
+        }
+    println("Há $a letras A nessa palavra")
+}
