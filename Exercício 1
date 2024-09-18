@@ -1,0 +1,16 @@
+fun main() {
+    var num1 = 0
+    var num2 = 1
+    var fibo = 0
+    val Numeroescolhido = 2
+    while (Numeroescolhido != fibo && Numeroescolhido > fibo) {
+        fibo = num1 + num2
+        num1 = num2
+        num2 = fibo
+    }
+    if (Numeroescolhido == fibo){
+        println("$Numeroescolhido pertence a sequência de Fibonacci")
+    }else{
+        println("$Numeroescolhido não pertence a sequência de Fibonacci")
+    }
+}
